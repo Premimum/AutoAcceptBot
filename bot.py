@@ -58,7 +58,7 @@ async def op(_, m :Message):
                         InlineKeyboardButton("🎥 𝐆𝐫𝐨𝐮𝐩 🎥", url="t.me/MM_Archives"),
                         InlineKeyboardButton("🎥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎥", url="t.me/Movie_Meadia")
                     ],[
-                        InlineKeyboardButton("➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐂𝐇𝐀𝐓 ➕", url="https://t.me/SDAutoApproveBot?startgroup")
+                        InlineKeyboardButton("➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐂𝐇𝐀𝐓 ➕", url="http://t.me/{temp.U_NAME}?startgroup=true")
                     ]
                 ]
             )
@@ -69,7 +69,7 @@ async def op(_, m :Message):
             keyboar = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://t.me/SDAutoApproveBot?start=start")
+                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="http://t.me/{temp.U_NAME}?startgroup=true")
                     ]
                 ]
             )
@@ -97,10 +97,10 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://t.me/SDBOTs_inifinity"),
-                        InlineKeyboardButton("💬 Support", url="https://t.me/SDBOTz")
+                        InlineKeyboardButton("🗯 Channel", url="t.me/MM_Archives"),
+                        InlineKeyboardButton("🎥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎥", url="t.me/Movie_Meadia")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/SDAutoApproveBot?startgroup")
+                        InlineKeyboardButton("➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐂𝐇𝐀𝐓 ➕", url="http://t.me/{temp.U_NAME}?startgroup=true")
                     ]
                 ]
             )
