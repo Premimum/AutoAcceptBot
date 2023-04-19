@@ -58,7 +58,7 @@ async def op(_, m :Message):
                         InlineKeyboardButton("🎥 𝐆𝐫𝐨𝐮𝐩 🎥", url="t.me/MM_Archives"),
                         InlineKeyboardButton("🎥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎥", url="t.me/Movie_Meadia")
                     ],[
-                        InlineKeyboardButton("➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐂𝐇𝐀𝐓 ➕", url="http://t.me/{temp.U_NAME}?startgroup=true")
+                        InlineKeyboardButton("➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐂𝐇𝐀𝐓 ➕", url="https://t.me/MMAcceptbot?startgroup")
                     ]
                 ]
             )
@@ -69,7 +69,7 @@ async def op(_, m :Message):
             keyboar = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="http://t.me/{temp.U_NAME}?startgroup=true")
+                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://t.me/MMAcceptbot?startgroup")
                     ]
                 ]
             )
@@ -100,7 +100,7 @@ async def chk(_, cb : CallbackQuery):
                         InlineKeyboardButton("🎥 𝐆𝐫𝐨𝐮𝐩 🎥", url="t.me/MM_Archives"),
                         InlineKeyboardButton("🎥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎥", url="t.me/Movie_Meadia")
                     ],[
-                        InlineKeyboardButton("➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐂𝐇𝐀𝐓 ➕", url="http://t.me/{temp.U_NAME}?startgroup=true")
+                        InlineKeyboardButton("➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐂𝐇𝐀𝐓 ➕", url="https://t.me/MMAcceptbot?startgroup")
                     ]
                 ]
             )
